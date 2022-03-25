@@ -12,6 +12,8 @@ export const GlobalStyles = createGlobalStyle`
     --gray-primary: #555555;
     --text: #FFFFFF;
     --text-title: #FAFCFC;
+
+    --yellow-primary: #FBDE1B;
   }
 
   * {
