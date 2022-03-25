@@ -1,6 +1,6 @@
 import { HeaderContainer, HeaderItemsContainer, HeaderLogoContainer, HeaderSearchBarContainer, LogoTitle, SearchBar, SearchBarIconContainer } from "./Header.styles";
 import logo from '../../assets/logo.png';
-import searchIcon from '../../assets/search.png';
+import { FiSearch } from 'react-icons/fi';
 
 export const Header = () => {
     return (
@@ -17,7 +17,7 @@ export const Header = () => {
             </HeaderItemsContainer>
             <HeaderSearchBarContainer>
                 <SearchBarIconContainer>
-                    <img src={searchIcon} alt='lupa' />
+                    <FiSearch color="white"/>
                 </SearchBarIconContainer>
                 <SearchBar placeholder='Coleções, itens ou usuários...'/>
             </HeaderSearchBarContainer>

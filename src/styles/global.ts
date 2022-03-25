@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     --green-light: #62FF5B;
     --grenn-dark: #0C4900;
     
-    --gray-primary: #F2F2F2;
+    --gray-primary: #555555;
     --text: #FFFFFF;
     --text-title: #FAFCFC;
   }

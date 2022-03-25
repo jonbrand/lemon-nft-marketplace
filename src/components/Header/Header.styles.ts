@@ -21,7 +21,7 @@ export const HeaderLogoContainer = styled.div`
 `;
 
 export const LogoTitle = styled.div`
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
@@ -46,12 +46,12 @@ export const HeaderItemsContainer = styled.div`
     color: var(--text);
     font-family: 'Roboto', sans-serif;
 
-    font-weight: 500;
+    font-weight: bold;
    }
 `;
 
 export const HeaderSearchBarContainer = styled.div`
-    background-color: var(--white);
+    background-color:  var(--gray-primary);
     height: 42px;
     flex: 0.8;
 
@@ -63,9 +63,7 @@ export const HeaderSearchBarContainer = styled.div`
 `;
 
 export const SearchBarIconContainer = styled.div`
-    img {
-        margin: 10px;
-    }
+    margin: 10px;
 `;
 
 export const SearchBar = styled.input`
@@ -74,10 +72,10 @@ export const SearchBar = styled.input`
     width: 100%;
 
     outline: none;
-    color: var(--gray-primary);
+    color: var(--text);
     font-size: 16px;
 
     ::placeholder {
-        color: grey;
+        color: var(--text);
     }
 `;
