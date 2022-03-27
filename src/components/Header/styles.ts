@@ -37,7 +37,7 @@ export const HeaderItemsContainer = styled.div`
     justify-content: center;
     justify-content: space-between;
 
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
    
@@ -81,19 +81,3 @@ export const SearchBar = styled.input`
 `;
 
 export const HeaderButtonMetaMaskContainer = styled.div``;
-
-export const ButtonMetaMask = styled.button`
-    background: var(--green-light);
-    padding: 15px 10px 15px 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: var(--grenn-dark);
-    font-size: 18px;
-    font-weight: bold;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-
-    &:hover {
-        trasnform: translateY(-3px);
-    }
-`;

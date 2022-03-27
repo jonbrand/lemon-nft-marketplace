@@ -1,6 +1,5 @@
 import 
 {
-    ButtonMetaMask,
     HeaderButtonMetaMaskContainer,
     HeaderContainer, 
     HeaderItemsContainer, 
@@ -9,9 +8,10 @@ import
     LogoTitle, 
     SearchBar, 
     SearchBarIconContainer 
-} from "./Header.styles";
+} from "./styles";
 import logo from '../../assets/logo.png';
 import { FiSearch } from 'react-icons/fi';
+import { ButtonComponent } from "../Button/Button";
 
 export const Header = () => {
     return (
@@ -33,9 +33,7 @@ export const Header = () => {
                 <SearchBar placeholder='Coleções, itens ou usuários...'/>
             </HeaderSearchBarContainer>
             <HeaderButtonMetaMaskContainer>
-                <ButtonMetaMask>
-                    Conectar
-                </ButtonMetaMask>
+                <ButtonComponent/>
             </HeaderButtonMetaMaskContainer>
         </HeaderContainer>
     )
