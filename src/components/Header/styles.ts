@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
@@ -40,15 +41,16 @@ export const HeaderItemsContainer = styled.div`
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
-   
-   p {
+`;
+
+export const LinkButtons = styled(Link)`
     margin: 20px;
     color: var(--text);
     font-family: 'Roboto', sans-serif;
 
     font-weight: bold;
-   }
-`;
+    text-decoration: none;
+`
 
 export const HeaderSearchBarContainer = styled.div`
     background-color:  var(--gray-primary);
