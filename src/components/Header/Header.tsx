@@ -34,7 +34,7 @@ export const Header = () => {
                 <SearchBar placeholder='Coleções, itens ou usuários...'/>
             </HeaderSearchBarContainer>
             <HeaderButtonMetaMaskContainer>
-                <ButtonComponent/>
+                <ButtonComponent />
             </HeaderButtonMetaMaskContainer>
         </HeaderContainer>
     )

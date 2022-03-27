@@ -83,3 +83,5 @@ export const SearchBar = styled.input`
 `;
 
 export const HeaderButtonMetaMaskContainer = styled.div``;
+
+export const NavContainerButton = styled.link``;

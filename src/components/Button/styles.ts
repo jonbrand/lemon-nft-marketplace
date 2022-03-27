@@ -41,3 +41,5 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
+
+export const NavLink = styled.link``;

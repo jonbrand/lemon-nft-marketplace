@@ -6,7 +6,7 @@ export const ButtonComponent = () => {
       <NavBtn>
         <Button to="/contact" primary="true">
           {' '}
-          Entre em contato
+          Conectar Carteira
         </Button>
       </NavBtn>
     </>
